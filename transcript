@@ -1,0 +1,45 @@
+# Compile of fifo.sv failed with 3 errors.
+# Compile of fifo.sv failed with 2 errors.
+# Compile of fifo.sv failed with 1 errors.
+# Compile of fifo.sv failed with 1 errors.
+# Compile of afu.sv failed with 4 errors.
+# Compile of ccip_interface_reg.sv failed with 2 errors.
+# Compile of ccip_std_afu.sv failed with 2 errors.
+# Compile of fifo.sv failed with 1 errors.
+# Compile of fifo_tb.sv was successful.
+# 5 compiles, 4 failed with 9 errors.
+# Compile of fifo.sv failed with 1 errors.
+# Compile of fifo.sv failed with 2 errors.
+# Compile of fifo.sv was successful.
+vsim -gui work.fifo_tb
+# vsim -gui work.fifo_tb 
+# Start time: 17:09:49 on Sep 09,2021
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.fifo
+add wave -position insertpoint sim:/fifo_tb/DUT/*
+run -all
+# Error! Reset was not conducted properly. Expected: 0, Got:                     x
+# Errors:           1
+# ARRRR!  Ye codes be blast! Aye, there be errors. Get debugging!
+# ** Note: $stop    : C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ps  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv line 93
+# Break key hit
+# Compile of afu.sv failed with 4 errors.
+# Compile of ccip_interface_reg.sv failed with 2 errors.
+# Compile of ccip_std_afu.sv failed with 2 errors.
+# Compile of fifo.sv was successful.
+# 4 compiles, 3 failed with 8 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.fifo
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Errors:           0
+# YAHOO!!! All tests passed.
+# ** Note: $stop    : C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv(93)
+#    Time: 166 ps  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv line 93
