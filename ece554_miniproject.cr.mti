@@ -5,6 +5,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fifo_tb
 
+} {} {}} C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/fifo.sv {1 {vlog -work work -sv -stats=none {C:\Users\Woof\Documents\GitHub\ece554_miniproject\ccip_mmio\hw\fifo.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
 } {} {}} C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/ccip_std_afu.sv {0 {vlog -work work -sv -stats=none C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/ccip_std_afu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 ** Error: C:/Users/Woof/Documents/GitHub/ece554_miniproject/ccip_mmio/hw/ccip_std_afu.sv(34): Cannot open `include file "platform_if.vh".
